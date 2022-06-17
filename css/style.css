@@ -215,6 +215,7 @@ table {
 
 body {
   font-family: Inter;
+  background: linear-gradient(336deg, #F5F5F5 3.12%, rgba(250, 250, 250, 0) 94.49%);
 }
 
 .wrapper {
@@ -365,7 +366,6 @@ header {
 
 .intro {
   padding-top: 3.125em;
-  background: linear-gradient(336deg, #F5F5F5 3.12%, rgba(250, 250, 250, 0) 94.49%);
 }
 
 .intro__title {
@@ -416,8 +416,10 @@ header {
 }
 
 .intro__card img {
+  width: 271px;
+  height: 183px;
   position: absolute;
-  left: 0;
+  left: -5%;
 }
 
 @media (max-width: 75em) {
